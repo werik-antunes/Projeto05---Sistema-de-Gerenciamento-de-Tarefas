@@ -38,7 +38,7 @@ public class SistemaGerenciamentoTarefa {
 				int numTarefa = sc.nextInt();
 				if (numTarefa >= 1 && numTarefa <= tarefas.size()) {
 					Tarefa tarefa = tarefas.get(numTarefa - 1);
-					tarefa.marcarConcluida();
+					
 
 					System.out.println("Tarefa marcada como concluída com sucesso!");
 
